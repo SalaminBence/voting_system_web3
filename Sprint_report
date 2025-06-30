@@ -1,0 +1,14 @@
+I. sprint (2025.06.30 - 2025.07.07)
+Solidity;
+🔧 Backend Tasks (Sprint 1):
+Stack választás;
+1.1 Write Proposal Struct Define what a proposal is: title, description, vote count, etc.
+2 1.2 Implement Voting Smart Contract Add functions: createProposal(), vote(), getProposals()
+5 1.3 Restrict Voting Add modifiers to allow only 1 vote per address 
+5 1.5 Deploy to Testnet Deploy smart contract on a testnet (e.g., Sepolia)
+
+🎨 Frontend Tasks (Sprint 1):
+2.1 Setup React App Create project, install deps (ethers.js, wagmi, tailwind, etc.) 
+2 2.2 Connect Wallet Integrate MetaMask using wagmi or ethers.js 
+3 2.3 Display Proposals Fetch and list proposals from the smart contract 
+3 2.6 Display Results Show vote counts and winning proposal 3
