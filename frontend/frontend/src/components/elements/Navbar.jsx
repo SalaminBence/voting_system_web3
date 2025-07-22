@@ -1,8 +1,9 @@
 import { Wallet, Vote } from 'lucide-react';
 import '../../styles/styles.css';
+import WalletConnector from './WalletConnector';
 
 // Navbar Component
-const Navbar = ({ currentPage, setCurrentPage, isWalletConnected, connectWallet }) => {
+const Navbar = ({ currentPage, setCurrentPage, isWalletConnected}) => {
   return (
     <nav className="navbar">
       <div className="nav-container">
@@ -26,18 +27,16 @@ const Navbar = ({ currentPage, setCurrentPage, isWalletConnected, connectWallet 
           </button>
         </div>
         
-        //insert connection here
         <div className="wallet-section">
           {isWalletConnected ? (
             <div className="wallet-connected">
-              <Wallet className="wallet-icon" />
-              <span>0x1234...5678</span>
+              <Wallet className="wallet-icon" /> Connected
             </div>
           ) : (
-            <button className="connect-wallet-btn" onClick={connectWallet}>
+            <div className="connect-wallet-btn">
               <Wallet className="wallet-icon" />
-              Connect Wallet
-            </button>
+              <WalletConnector className="wallet-icon" />
+            </div>
           )}
         </div>
       </div>

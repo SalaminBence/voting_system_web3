@@ -12,9 +12,8 @@ const Footer = () => {
         <div className="footer-section">
           <h4>Links</h4>
           <ul>
-            <li><a href="#docs">Documentation</a></li>
-            <li><a href="#github">GitHub</a></li>
-            <li><a href="#discord">Discord</a></li>
+            <li><a href="https://github.com/SalaminBence/voting_system_web3/blob/main/README.md">Documentation</a></li>
+            <li><a href="https://github.com/SalaminBence/voting_system_web3">GitHub</a></li>
           </ul>
         </div>
         <div className="footer-section">
